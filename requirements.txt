@@ -1,0 +1,4 @@
+Django
+ollama
+python-dotenv
+psycopg2-binary
