@@ -18,6 +18,44 @@ Navigate into the project directory:
 cd LLM_Assignment
 ```
 
+### Set Up a Virtual Environment
+
+It is recommended to use a virtual environment to manage dependencies. Here's how to create and activate a virtual environment:
+
+1. **Create a Virtual Environment**:
+
+   ```bash
+   python3 -m venv env
+   ```
+
+   This will create a new directory named `env` containing the virtual environment.
+
+2. **Activate the Virtual Environment**:
+
+   - On **Linux/MacOS**:
+
+     ```bash
+     source env/bin/activate
+     ```
+
+   - On **Windows**:
+
+     ```bash
+     .\env\Scripts\activate
+     ```
+
+   Once activated, your terminal prompt should change to indicate that the virtual environment is active.
+
+### Install Project Dependencies
+
+With the virtual environment activated, install the project dependencies listed in the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all necessary packages required for the project.
+
 ### Create the `.env` File
 
 The `.env` file is required to store environment-specific variables, such as database configurations and Ollama model settings. Create a `.env` file inside the `propertyAI` folder.
