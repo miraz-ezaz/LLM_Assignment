@@ -27,18 +27,28 @@ Here’s a sample content for the `.env` file:
 ```env
 # Default Database Configuration
 DEFAULT_DB_ENGINE=django.db.backends.postgresql
-DEFAULT_DB_NAME=propertyDB
-DEFAULT_DB_USER=admin
-DEFAULT_DB_PASSWORD=admin
-DEFAULT_DB_HOST=localhost
-DEFAULT_DB_PORT=5432
+DEFAULT_DB_NAME=your_database_name
+DEFAULT_DB_USER=your_database_username
+DEFAULT_DB_PASSWORD=your_database_password
+DEFAULT_DB_HOST=your_database_host
+DEFAULT_DB_PORT=your_database_port
 
 # Ollama Configuration
-OLLAMA_MODEL_NAME=rewrite
-OLLAMA_CLIENT_PORT=8000
+OLLAMA_MODEL_NAME=your_ollama_model_name
+OLLAMA_CLIENT_PORT=your_ollama_client_port
 ```
 
-Replace the placeholders with your actual database credentials and Ollama configuration.
+Replace the placeholder values with your actual configuration:
+
+- **`DEFAULT_DB_ENGINE`**: The database engine Django should use (e.g., `django.db.backends.postgresql`).
+- **`DEFAULT_DB_NAME`**: The name of your PostgreSQL database.
+- **`DEFAULT_DB_USER`**: The username for your PostgreSQL database.
+- **`DEFAULT_DB_PASSWORD`**: The password for your PostgreSQL database.
+- **`DEFAULT_DB_HOST`**: The host of your PostgreSQL database (e.g., `localhost`).
+- **`DEFAULT_DB_PORT`**: The port on which your PostgreSQL database is running (e.g., `5432`).
+
+- **`OLLAMA_MODEL_NAME`**: The name of the Ollama model you are using (e.g., `rewrite`).
+- **`OLLAMA_CLIENT_PORT`**: The port on which the Ollama client is running (e.g., `8000`).
 
 ### Make Migrations
 
