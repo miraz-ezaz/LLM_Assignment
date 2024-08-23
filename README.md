@@ -85,8 +85,8 @@ Replace the placeholder values with your actual configuration:
 - **`DEFAULT_DB_HOST`**: The host of your PostgreSQL database (e.g., `localhost`).
 - **`DEFAULT_DB_PORT`**: The port on which your PostgreSQL database is running (e.g., `5432`).
 
-- **`OLLAMA_MODEL_NAME`**: The name of the Ollama model you are using (e.g., `rewrite`).
-- **`OLLAMA_CLIENT_PORT`**: The port on which the Ollama client is running (e.g., `8000`).
+- **`OLLAMA_MODEL_NAME`**: The name of the Ollama model you are using (e.g., `gemma2:2b`).
+- **`OLLAMA_CLIENT_PORT`**: The port on which the Ollama client is running (e.g., `11434`).
 
 ### Make Migrations
 
