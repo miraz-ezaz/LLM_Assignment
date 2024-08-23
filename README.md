@@ -53,7 +53,18 @@ With the virtual environment activated, install the project dependencies listed 
 ```bash
 pip install -r requirements.txt
 ```
+### Ollama
+1. Install and start Ollama:
+   Follow the instructions at [Ollama's official website](https://ollama.ai/download) to install Ollama on your system.
 
+2. Pull the required model (e.g., gemma2:2b):
+   ```
+   ollama pull gemma2:2b
+
+3. Ensure Ollama is running:
+   ```
+   ollama run gemma2:2b
+   ```
 This will install all necessary packages required for the project.
 
 ### Create the `.env` File
